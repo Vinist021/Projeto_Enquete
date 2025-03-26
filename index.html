@@ -11,6 +11,7 @@
     body{
         color: #FCFFFF;
         background-color: #CCCCCC;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
     input{
@@ -50,9 +51,31 @@
         text-align: center;
 
         padding-top: 0.8rem;
-        padding-bottom: 1.2rem;
+        padding-bottom: 1.8rem;
+
+        font-size: 1.6rem;
+        font-weight: 500;
     }
 
+    .container-externo-texto{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        font-size: 1.1rem;
+    }    
+
+    .cont-ext-frase-1{
+        text-align: center;
+    }
+
+    .cont-ext-frase-2{
+        text-align: center;
+        padding-top: 0.7rem;
+    }
+
+    .cont-ext-frase-3{
+        text-align: center;
+        padding-top: 0.7rem;
+    }
     .container-interno{
         background-color: #551A5F;
         margin: 1.8rem;
@@ -94,10 +117,11 @@
         text-align: center;
     }
 
-
-
     .creditos{
-        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin-top: -1rem;
+        padding-bottom: 1rem;
     }
 
 </style>
@@ -123,55 +147,54 @@
                 No final da enquete iremos sortear um **brinde** entre os participantes.
             </div>
 
+        </div>
 
-            <div class="container-interno">
+        <div class="container-interno">
 
-                <div class="cont-int-cabecalho">
-                    Digite os seus dados e escolha entre os três finalistas!
-                </div>
+            <div class="cont-int-cabecalho">
+                Digite os seus dados e escolha entre os três finalistas!
+            </div>
 
-                <div class="dados">
-                    <input type="text" placeholder="Digite seu nome:">
-                    <input type="email" placeholder="Digite seu email:" style="margin-bottom: 40px;">
-                </div> 
+            <div class="dados">
+                 <input type="text" placeholder="Digite seu nome:">
+                 <input type="email" placeholder="Digite seu email:" style="margin-bottom: 40px;">
+            </div> 
                 
-                <div class="paineis">
+            <div class="paineis">
 
-                    <div class="paineis-ext">
+                <div class="paineis-ext">
 
-                        <div class="paineis-int">
-                            Esportes
-                            <button>Votar</button>
-                        </div>
-
-                    </div>
-
-                    <div class="paineis-ext">
-                        
-                        <div class="paineis-int">
-                            Simulação
-                            <button>Votar</button>
-                        </div>
-
-                    </div>
-
-                    <div class="paineis-ext">
-
-                        <div class="paineis-int">
-                            Estratégia
-                            <button>Votar</button>
-                        </div>
-
+                    <div class="paineis-int">
+                          Esportes
+                         <button>Votar</button>
                     </div>
 
                 </div>
+
+                <div class="paineis-ext">
+                        
+                    <div class="paineis-int">
+                         Simulação
+                         <button>Votar</button>
+                    </div>
+
+                </div>
+
+                <div class="paineis-ext">
+
+                    <div class="paineis-int">
+                        Estratégia
+                        <button>Votar</button>
+                    </div>
+
+                </div>
+
+            </div>
    
-            </div>
+        </div>
 
-            <div class="creditos">
-                @Desenvolvido por GameTechLover
-            </div>
-
+        <div class="creditos">
+            @Desenvolvido por GameTechLover
         </div>
     </div>
 
