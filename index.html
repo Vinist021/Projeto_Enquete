@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto 01 - Card de Games</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <style>
-
-    body{
+     body{
         color: #FCFFFF;
         background-color: #CCCCCC;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -23,6 +23,7 @@
         border: none;
         margin: 12px;
     }
+
     button{
         color: #FCFFFF;
         background-color: #1D0C20;
@@ -52,179 +53,9 @@
         background-color: #36133C;
         cursor: pointer;
     }
-
-    .negrito{
-        font-weight: 500;
-    }
-
-    .container-externo{
-        background: linear-gradient(to bottom, #1D0C20, #651F71);
-
-        margin: auto;
-        margin-top: 0.5rem;
-        border-radius: 8px;
-
-        width: 800px;
-    }
-
-    .container-externo-cabecalho{
-        color: #FECD23;
-        text-align: center;
-
-        padding-top: 0.8rem;
-        padding-bottom: 1.8rem;
-
-        font-size: 2.5rem;
-        font-weight: 500;
-    }
-
-    .container-externo-texto{
-        padding-left: 2rem;
-        padding-right: 2rem;
-        font-size: 1.1rem;
-    }    
-
-    .cont-ext-frase-1{
-        text-align: center;
-    }
-
-    .cont-ext-frase-2{
-        text-align: center;
-        padding-top: 0.7rem;
-    }
-
-    .cont-ext-frase-3{
-        text-align: center;
-        padding-top: 0.7rem;
-        padding-bottom: 1rem;
-    }
-    .container-interno{
-        background: linear-gradient(to top, #1D0C20, #651F71);
-        margin: 1.8rem;
-        width: 93%;
-        border-radius: 8px;
-    }
-
-    .cont-int-cabecalho{
-        font-size: 1.8rem;
-        padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
-        padding-left: 1rem;
-
-        text-align: center;
-
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-    }
-
-    .dados{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        align-content: space-around;
-    }
-
-    .paineis{
-        display: flex;
-        flex-direction: row;
-    }
-
-    .paineis-ext{
-
-        background: linear-gradient(to bottom, #2638DB, #342A88 );
-        width: 220px;
-        height: 300px;
-        margin: 1.8rem;
-        position: relative;
-        top: -1.625rem;
-        border-radius: 10px;
-
-    }
-
-    .paineis-int{
-        background: linear-gradient(to bottom, #3C5BEE, #73CDFF);
-        width: 90%;
-        height: 90%;
-        margin-top: 1.1rem;
-        margin-left: 5%;
-
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-    }
-
-    .txt-painel{
-        font-size: 1.5rem;
-        padding-top: 1.5rem;
-
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-    }
-
-    .imagens-paineis{
-        display: flex;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-
-    .creditos{
-        display: flex;
-        justify-content: center;
-        margin-top: -1rem;
-        padding-bottom: 1rem;
-        font-size: 0.8rem;
-    }
-
-    @media screen and (max-width: 820px){
-        html{
-            font-size: 14px;
-        }
-
-        .container-externo{
-            width: 100%;
-        }
-
-        .container-externo-texto{
-            padding-left: 1.3rem;
-            font-size: 14px;
-        }
-
-        .container-interno{
-            max-width: 100%;
-            width: auto;
-        }
-
-        .paineis{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin: 1rem;
-        }
-
-        .paineis-ext{
-            max-width: 220px;
-            width: 90%;
-        }
-
-        .imagens-paineis{
-        display: flex;
-        position: absolute;
-        top: 50%;
-        left: 41%;
-        transform: translate(-50%, -50%);
-        margin-right: 1rem;
-        }
-
-        object{
-            width: 150%;
-            height: auto;
-        }
-
-    }
-
+    
 </style>
+
 
 <body>
     
