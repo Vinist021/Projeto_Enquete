@@ -29,12 +29,18 @@
 
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        padding: 1rem 2rem;
-        margin-left: 2.5rem;
+       
+       
+        padding: 8% 18%;
+        
 
         border-radius: 4px;
         border: none;
+
+        position: absolute;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     input:focus{
@@ -68,7 +74,7 @@
         padding-top: 0.8rem;
         padding-bottom: 1.8rem;
 
-        font-size: 1.6rem;
+        font-size: 2.5rem;
         font-weight: 500;
     }
 
@@ -103,7 +109,12 @@
         font-size: 1.8rem;
         padding-top: 1.5rem;
         padding-bottom: 1.5rem;
-        padding-left: 2rem;
+        padding-left: 1rem;
+
+        text-align: center;
+
+        word-wrap: break-word;
+        overflow-wrap: break-word;
     }
 
     .dados{
@@ -135,21 +146,27 @@
         width: 90%;
         height: 90%;
         margin-top: 1.1rem;
-        margin-left: 0.6rem;
+        margin-left: 5%;
 
         align-items: center;
         text-align: center;
+        justify-content: center;
     }
 
     .txt-painel{
         font-size: 1.5rem;
         padding-top: 1.5rem;
+
+        word-wrap: break-word;
+        overflow-wrap: break-word;
     }
 
     .imagens-paineis{
         display: flex;
-        padding-top: 0rem;
-        padding-left: 0.5rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .creditos{
@@ -158,6 +175,53 @@
         margin-top: -1rem;
         padding-bottom: 1rem;
         font-size: 0.8rem;
+    }
+
+    @media screen and (max-width: 820px){
+        html{
+            font-size: 14px;
+        }
+
+        .container-externo{
+            width: 100%;
+        }
+
+        .container-externo-texto{
+            padding-left: 1.3rem;
+            font-size: 14px;
+        }
+
+        .container-interno{
+            max-width: 100%;
+            width: auto;
+        }
+
+        .paineis{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 1rem;
+        }
+
+        .paineis-ext{
+            max-width: 220px;
+            width: 90%;
+        }
+
+        .imagens-paineis{
+        display: flex;
+        position: absolute;
+        top: 50%;
+        left: 41%;
+        transform: translate(-50%, -50%);
+        margin-right: 1rem;
+        }
+
+        object{
+            width: 150%;
+            height: auto;
+        }
+
     }
 
 </style>
