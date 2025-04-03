@@ -17,3 +17,8 @@ Este projeto é uma página web front-end que simula uma enquete interativa. A a
 * **Imagens Representativas:** Cada categoria é ilustrada com uma imagem.
 
 * **Responsividade:** Layout adaptável para desktops, tablets e smartphones.
+
+## Acesso
+
+**Segue link para acesso ao projeto:** https://vinist021.github.io/Projeto_Enquete
+
